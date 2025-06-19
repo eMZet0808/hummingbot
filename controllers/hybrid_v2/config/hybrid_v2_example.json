@@ -1,0 +1,25 @@
+{
+  "strategy": "hybrid_v2",
+  "assets": [
+    {
+      "symbol": "BTC-PERP",
+      "tp": 1.2,
+      "sl": 0.7,
+      "trailing": true,
+      "atr_period": 14
+    },
+    {
+      "symbol": "ETH-PERP",
+      "tp": 1.0,
+      "sl": 0.5,
+      "trailing": false,
+      "atr_period": 14
+    }
+  ],
+  "global_risk": 0.02,
+  "telegram": {
+    "enabled": true,
+    "token": "<TELEGRAM_TOKEN>",
+    "chat_id": "<CHAT_ID>"
+  }
+}
