@@ -1,1 +1,2 @@
-# Initialisiert das hybrid_v2 Strategie-Modul
+# coding: utf-8
+# __init__.py für Bot: hybrid_v2
